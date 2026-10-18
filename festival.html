@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival di Venezia 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Festival di Venezia 2026</h1>
+        <p>Venezia, 27 Agosto - 6 Settembre</p>
+    </header>
+
+    <main>
+        <h2>Film in concorso</h2>
+        <ul>
+            <li><a href="film.html">La grande bellezza</a> - Paolo Sorrentino</li>
+            <li>Il sorpasso - Dino Risi</li>
+            <li>Oppenheimer - Christopher Nolan</li>
+        </ul>
+
+        <h2>Programma Proiezioni</h2>
+        <table>
+            <tr><th>Data</th><th>Ora</th><th>Film</th><th>Sala</th></tr>
+            <tr><td>28/08</td><td>18:00</td><td>La Grande Bellezza</td><td>Sala Grande</td></tr>
+            <tr><td>29/08</td><td>21:00</td><td>Oppenheimer</td><td>Palabiennale</td></tr>
+        </table>
+
+        <h2>Lascia una Recensione!!</h2>
+        <form action="/recensioni" method="post">
+            <label>Voto (1-5): <input type="number" name="voto" min="1" max="5"</label>
+            <label>Testo: <textarea name="testo"></textarea></label>
+            <button type="submit">Invia</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>SIW - esercitazione</p>
+    </footer>
+
+</body>
+</html>

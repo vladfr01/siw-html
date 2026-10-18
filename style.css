@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    background-color: #181818;
+    color: #dadada;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #ffc799;
+}
+
+a {
+    color: #50b5aa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #505050;
+    padding: 8px;
+}
